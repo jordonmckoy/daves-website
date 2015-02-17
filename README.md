@@ -1,4 +1,4 @@
 # daves-website
 A portfolio website I built for a friend
 
-diangelodesigns.ca
+www.diangelodesigns.ca
