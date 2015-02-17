@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jordon McKoy" />
+    <meta name="description" content="The personal portfolio website of David Diangelo">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.40, maximum-scale=0.50, user-scalable=1">
+    <title>Dave Diangelo</title>
+	
+ 	<link rel="stylesheet" type="text/css" href="style/style.css">
+ 	<link rel="stylesheet" type="text/css" href="boot/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="lightbox/css/lightbox.css">
+</head>
+<body>
+	<div id="greet-container" class="container">
+		<div class="logo">
+			<img src="img/main-logo.png">
+		</div>
+		
+		<div class="social-media-container">
+			<a class="social-hover" href="http://facebook.com/DiAngeloDesigns"><img src="icons-small/facebook-icon.png"></a>
+			<a class="social-spacer social-hover" href="http://instagram.com/davediangelo"><img src="icons-small/Instagram-icon.png"></a>
+			<a class="social-spacer social-hover" href="http://behance.net/DiAngeloDesigns"><img src="icons-small/Behance-icon.png"></a>
+			<a class="social-spacer social-hover" href="https://linkedin.com/pub/dave-diangelo/a7/37/603"><img src="icons-small/LinkedIn-icon.png"></a>
+			<a class="social-spacer social-hover" href="mailto:dave.j.diangelo@gmail.com"><img src="icons-small/email-icon.png"></a>
+		</div>
+	</div>
+
+ 	<img class="img-spacer" src="img/wood.png">
+
+	<div id="gallery-container" class="container">
+		<div class="voffset3"></div>
+		<div class="row">
+			<div class="col-xs-2">
+				<div class="designer-block">
+					<p class="designer-text">THE</p>
+					<p class="designer-text">DESIGNER</p>
+				</div>
+			</div>
+			<div class="col-xs-10">
+				<div class="selfie">		
+					<img src="img/selfie.png">
+				</div>
+				
+				<div class="voffset4"></div>
+				<div id="about-table">
+					<div class="row valign-parent">
+						<div class="valign col-xs-1"><img src="icons-small/Designing-icon.png"></div>
+						<div class="col-xs-5 valign"><p class="about-text">Designing is my passion</p></div>
+						<div class="col-xs-6"><p class="about-text">I have experience in designing, marketing, and coding. Providing new identities for small business's and creating eye catching designs for bigger organizations.</div>
+					</div>
+					<div class="voffset4"></div>
+					<div class="row">
+						<div class="col-xs-1"><img src="icons-small/photography-icon.png"></div>
+						<div class="col-xs-5"><p class="about-text">Photography is my hobby</p></div>
+						<div class="col-xs-6"><p class="about-text">With graduating from the Graphic Design program from Fanshawe College I have been given a solid understanding of how design can be applied to support and enhance business solutions and recommendations.</div>
+					</div>
+					<div class="voffset4"></div>
+					<div class="row">
+						<div class="col-xs-1"><img src="icons-small/Car-icon.png"></div>
+						<div class="col-xs-5"><p class="about-text">Cars are my weakness</p></div>
+						<div class="col-xs-6"><p class="about-text">Helping people convey their messages through art and design is what I live for.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<img class="img-spacer" src="img/flowers.png">
+
+	<div id="gallery-container" class="container">
+		<div class="voffset3"></div>
+		<div class="row">
+			<div class="col-xs-2">
+				<div class="goods-block">
+					<p class="designer-text">THE</p>
+					<p class="designer-text">GOODS</p>
+				</div>
+			</div>
+			<div class="col-xs-10">
+				<div class="gallery-row">
+					<a href="Large-images/Landescapes-Large.png" data-lightbox="gallery"><img src="icons-small/Landescapes-small.png"></a>
+					<a href="Large-images/Winston-Large.png" data-lightbox="gallery"><img src="icons-small/Winston-small.png"></a>
+					<a href="Large-images/Stuff-Large.png" data-lightbox="gallery"><img src="icons-small/Stuff-small.png"></a>
+					<a href="Large-images/AC-Large.png" data-lightbox="gallery"><img src="icons-small/AC-small.png"></a>
+				</div>
+				<div class="gallery-row">
+					<a href="Large-images/BabyCard-Large.png" data-lightbox="gallery"><img src="icons-small/BabyCard-small.png"></a>
+					<a href="Large-images/HO-Large.png" data-lightbox="gallery"><img src="icons-small/HO-small.png"></a>
+					<a href="Large-images/Volkswagen-Large.png" data-lightbox="gallery"><img src="icons-small/Volkswagen-small.png"></a>
+					<a href="Large-images/Gum-Large.png" data-lightbox="gallery"><img src="icons-small/Gum-small.png"></a>
+				</div>
+				<div class="gallery-row">
+					<a href="Large-images/DE-Large.png" data-lightbox="gallery"><img src="icons-small/DE-small.png"></a>
+					<a href="Large-images/Renner-Large.png" data-lightbox="gallery"><img src="icons-small/Renner-small.png"></a>
+					<a href="Large-images/RAW-Large.png" data-lightbox="gallery"><img src="icons-small/RAW-small.png"></a>
+					<a href="Large-images/Chocolate-Large.png" data-lightbox="gallery"><img src="icons-small/Chocolate-small.png"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<img class="img-spacer-end" src="img/beetle.png">
+	
+	<script src="src/jquery-1.11.1.min.js"></script>
+	<script src="boot/js/bootstrap.min.js"></script>
+	<script src="lightbox/js/lightbox.min.js"></script>
+
+	<script type="text/javascript">
+		$("body").width((window.innerWidth) + (797*3) + 100 + 2400 + 2400);
+		$("#greet-container").width(window.innerWidth);
+		
+
+	</script>
+</body>
+
+</html>
